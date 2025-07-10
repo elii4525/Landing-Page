@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Englebert&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+body{
+    background-color: rgb(236, 235, 222);
+    margin: auto;
+}
+
+header {
+    background-color:rgb(136, 136, 135);
+   padding: 25px;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 248, 248);
+    font-size: 22px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Tarjeta {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.Frase {
+    
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "Englebert", cursive;
+}
+
+.Tarjeta img {
+    width: 200px;
+}
+
+.producto-vender {
+    padding-left: 20px;
+}
+
+.producto-vender p{
+    font-size: 25px;
+    font-family: "Cookie", cursive;
+    
+}
+
+.producto-vender button a {
+    text-decoration: none;
+    color: black;  
+}
+
+.producto-vender button {
+    border-radius: 21px ;
+    border: none;
+    padding: 5px 35px;
+    background-color: palevioletred;
+}
+
+.beneficios h2 {
+    text-align: center;
+    font-family: "Smythe", system-ui;
+
+}
+
+.beneficios p {
+    text-align: center;
+}
+
+
+.problema {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.problema h2 {
+    text-align: center;
+    font-family: "Smythe", system-ui;
+
+}
+
+.problema p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.ingredientes h2{
+    text-align: center;
+    font-family: "Smythe", system-ui;
+}
+
+.ingredientes li{
+    font-size: 17px;
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    background-color: rgb(136, 136, 135);
+    text-align: center;
+    margin-top: 40px;
+}
