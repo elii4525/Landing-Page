@@ -7,45 +7,22 @@ body{
     margin: auto;
 }
 
-header {
-    background-color:rgb(136, 136, 135);
-   padding: 25px;
-}
 
-nav img {
-    width: 100px;
-}
-
-nav a {
-    text-decoration: none;
-    color: rgb(255, 248, 248);
-    font-size: 22px;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
 
 .Tarjeta {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 50px;
     
 }
 
-.Frase {
-    
-    text-align: center;
-    padding-bottom: 30px;
-    font-family: "Englebert", cursive;
-}
+
 
 .Tarjeta img {
-    width: 200px;
+    width: 550px;
+    
 }
 
 .producto-vender {
@@ -53,33 +30,59 @@ nav {
 }
 
 .producto-vender p{
-    font-size: 25px;
-    font-family: "Cookie", cursive;
-    
+    font-size:35px;
+    /*font-family: "Cookie", cursive;*/
+    font-family: "Englebert", cursive;
 }
+    
+
 
 .producto-vender button a {
+    
     text-decoration: none;
     color: black;  
 }
 
 .producto-vender button {
+    font-size: 28px;
     border-radius: 21px ;
     border: none;
     padding: 5px 35px;
     background-color: palevioletred;
 }
 
+.Demas-info {
+    background-color: rgb(178, 171, 171);
+    padding-bottom: 20px;
+}
+
+.Demas-info p {
+    color: white;
+}
+
 .beneficios h2 {
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
     font-family: "Smythe", system-ui;
+    font-size: 88px;
 
 }
 
 .beneficios p {
-    text-align: center;
+    text-align: right;
+    font-size: 22px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    color: black;
 }
 
+.problema-fondo {
+    background-color: rgb(110, 160, 137);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 
 .problema {
     margin-top: 60px;
@@ -88,27 +91,62 @@ nav {
 .problema h2 {
     text-align: center;
     font-family: "Smythe", system-ui;
-
+    font-size: 50px;
 }
 
 .problema p {
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
+}
+
+.ingred {
+    background-color: rgb(148, 107, 145);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .ingredientes h2{
     text-align: center;
     font-family: "Smythe", system-ui;
+    font-size: 50px;
 }
 
 .ingredientes li{
-    font-size: 17px;
+    color: white;
+    font-size: 18px;
     text-align: center;
 }
 
+.mision-vision p {
+color: black;
+text-align: center;
+font-size: 18px;
+
+}
+
+.mision-vision h1 {
+    padding-left: 20px;
+    text-align: center;
+}
 footer {
     padding: 30px;
     background-color: rgb(136, 136, 135);
     text-align: center;
     margin-top: 40px;
+}
+
+/*Para telefenos*/
+/*No salio como lo esperaba pero lo intente*/
+@media (width <= 480px) {
+
+    .Demas-info {
+        flex-direction: column;
+    }
+
+    .Tarjeta {
+        flex-direction: column-reverse;
+    }
 }
